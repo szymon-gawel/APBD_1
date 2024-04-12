@@ -10,14 +10,14 @@ Console.WriteLine("Mod3");
 
 static double GetAverage(int[] numbers)
 {
-    var sum = 0;
+    var sum_new = 0;
 
     foreach (var number in numbers)
     {
-        sum += number;
+        sum_new += number;
     }
 
-    return sum / numbers.Length;
+    return sum_new / numbers.Length;
 }
 
 static int GetMax(int[] numbers)
