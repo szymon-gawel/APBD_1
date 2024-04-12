@@ -7,3 +7,15 @@ Console.WriteLine("Mod1");
 Console.WriteLine("Mod2");
 
 Console.WriteLine("Mod3");
+
+static double GetAverage(int[] numbers)
+{
+    var sum = 0;
+
+    foreach (var number in numbers)
+    {
+        sum += number;
+    }
+
+    return sum / numbers.Length;
+}
